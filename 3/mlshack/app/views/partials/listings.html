@@ -1,0 +1,12 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="row marketing">
+  <h4>Address</h4>
+  <div ng-repeat="listing in listings">
+    <p>{{formatAddress(listing)}}</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ from nearForm</p>
+</div>

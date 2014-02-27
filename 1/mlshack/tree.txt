@@ -1,0 +1,36 @@
+.
+├── app
+│   ├── bower_components
+│   │   ├── angular
+│   │   ├── bootstrap
+│   │   ├── jquery
+│   ├── scripts
+│   │   ├── app.js
+│   │   └── controllers
+│   │       ├── main.js
+│   │       └── navbar.js
+│   ├── styles
+│   │   └── main.css
+│   └── views
+│       ├── index.html
+│       └── partials
+│           ├── main.html
+│           └── navbar.html
+├── lib
+│   ├── config
+│   ├── controllers
+│   │   ├── api.js
+│   │   └── index.js
+│   └── routes.js
+├── node_modules
+│   └── express
+├── package.json
+├── server.js
+├── test
+│   ├── runner.html
+│   └── spec
+│       └── controllers
+│           └── main.js
+├── Gruntfile.js
+├── bower.json
+└── karma.conf.js
