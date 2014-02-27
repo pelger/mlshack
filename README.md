@@ -106,7 +106,12 @@ Create a file ~/mlshack/app/views/partials/listings.html. Add the following temp
 
 Include the newly created angular controller in index.html between the build:js comment markers
 
+        <!-- build:js({.tmp,app}) scripts/scripts.js -->
+        <script src="scripts/app.js"></script>
+        <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/navbar.js"></script>
         <script src="scripts/controllers/listings.js"></script>
+        <!-- endbuild -->
         
 Open the file ~/mlshack/app/scripts/app.js and add the following client route:
 
